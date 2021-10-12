@@ -10,8 +10,8 @@ using System.Threading;
 namespace Homework1
 {
     class Program
-    {
-        static string text = System.IO.File.ReadAllText(@"C:\Users\Nikolay Pleshkov\Desktop\TPL\book.txt");
+    {                                                    //Your path:
+        static string text = System.IO.File.ReadAllText(@"C:\Users\NikolayPleshkov\Desktop\hw\book.txt");
         private static IDictionary<string, int> GetWordOccurrence(string txt)
         {
             String[] deli_c = txt.Split(' ', '.', ',', '-', '_', '*', ':', ';', '`', '?', '!', '<', '>', '&', '[', ']', '(', ')', '{', '}');
@@ -31,24 +31,24 @@ namespace Homework1
 
         public static void PrintWordOccurrence(IDictionary<string, int> wordOccurrence)
         {
-            StreamWriter sw = new StreamWriter("wordOccurrence.txt"); 
+            StreamWriter sw = new StreamWriter("wordOccurrence.txt");
             using (sw)
             {
-                foreach(KeyValuePair<string, int> word in wordOccurrence)
+                foreach (KeyValuePair<string, int> word in wordOccurrence)
                 {
                     sw.WriteLine($"{word.Key} - {word.Value}");
-                } 
+                }
             }
 
             Console.WriteLine("File is generated in ./obj/wordOccurrence.txt .");
         }
-      
+
 
         public static void PrintNumberOfWords(IDictionary<string, int> wordOccurrence)
         {
-            
+
             int count = 0;
-            foreach(int value in wordOccurrence.Values)
+            foreach (int value in wordOccurrence.Values)
             {
                 count += value;
             }
@@ -105,8 +105,8 @@ namespace Homework1
 
         public static void AvgWordLength()
         {
-           
-            double countedWords = text.Split(' ').Average(n => n.Length); 
+
+            double countedWords = text.Split(' ').Average(n => n.Length);
             var c_th = Thread.CurrentThread;
             Console.WriteLine("\nManaged thread #{0}", c_th.ManagedThreadId);
             Console.WriteLine("Avg word length: " + Math.Round(countedWords, 1));
@@ -136,8 +136,8 @@ namespace Homework1
 
         public static void GetShortestWord()
         {
-          
-            text  = text + " ";
+
+            text = text + " ";
             int len = text.Length;
             String k = " ";
             String shWord = " ";
@@ -161,7 +161,7 @@ namespace Homework1
                         min1 = p;
                         shWord = k;
                     }
-                   
+
                     k = " ";
                 }
             }
@@ -198,7 +198,7 @@ namespace Homework1
             {
                 Thread _thread = new Thread(funcs[i].Invoke);
                 _thread.IsBackground = true;
-                _thread.Start(); 
+                _thread.Start();
                 threads.Add(_thread);
                 Thread.Sleep(200);
             }
@@ -215,7 +215,7 @@ namespace Homework1
             //GetShortestWord();
             //AvgWordLength();
 
-            stopwatch.Stop();            
+            stopwatch.Stop();
             Console.WriteLine("\nPress ENTER to exit.");
             Console.ReadKey();
             TimeSpan ts = stopwatch.Elapsed;
@@ -227,4 +227,3 @@ namespace Homework1
 
         }
     }
-}

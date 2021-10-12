@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nikolay Pleshkov\\Desktop\\TPL\\FinalProject\\FinalProject\\Homework1.csproj": {}
+    "C:\\Users\\Nikolay Pleshkov\\Documents\\GitHub\\tpl_fmi\\Homework1\\Homework1\\Homework1\\Homework1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nikolay Pleshkov\\Desktop\\TPL\\FinalProject\\FinalProject\\Homework1.csproj": {
+    "C:\\Users\\Nikolay Pleshkov\\Documents\\GitHub\\tpl_fmi\\Homework1\\Homework1\\Homework1\\Homework1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nikolay Pleshkov\\Desktop\\TPL\\FinalProject\\FinalProject\\Homework1.csproj",
+        "projectUniqueName": "C:\\Users\\Nikolay Pleshkov\\Documents\\GitHub\\tpl_fmi\\Homework1\\Homework1\\Homework1\\Homework1.csproj",
         "projectName": "Homework1",
-        "projectPath": "C:\\Users\\Nikolay Pleshkov\\Desktop\\TPL\\FinalProject\\FinalProject\\Homework1.csproj",
+        "projectPath": "C:\\Users\\Nikolay Pleshkov\\Documents\\GitHub\\tpl_fmi\\Homework1\\Homework1\\Homework1\\Homework1.csproj",
         "packagesPath": "C:\\Users\\Nikolay Pleshkov\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nikolay Pleshkov\\Desktop\\TPL\\FinalProject\\FinalProject\\obj\\",
+        "outputPath": "C:\\Users\\Nikolay Pleshkov\\Documents\\GitHub\\tpl_fmi\\Homework1\\Homework1\\Homework1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikolay Pleshkov\\AppData\\Roaming\\NuGet\\NuGet.Config",
