@@ -1,0 +1,15 @@
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\bin\Debug\net6.0\Area51.exe
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\bin\Debug\net6.0\Area51.deps.json
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\bin\Debug\net6.0\Area51.runtimeconfig.json
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\bin\Debug\net6.0\Area51.dll
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\bin\Debug\net6.0\ref\Area51.dll
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\bin\Debug\net6.0\Area51.pdb
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.csproj.AssemblyReference.cache
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.AssemblyInfoInputs.cache
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.AssemblyInfo.cs
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.csproj.CoreCompileInputs.cache
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.dll
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\ref\Area51.dll
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.pdb
+C:\Users\Nikolay Pleshkov\Documents\GitHub\fmi_tpl\FinalHomework\Area51\Area51\obj\Debug\net6.0\Area51.genruntimeconfig.cache
